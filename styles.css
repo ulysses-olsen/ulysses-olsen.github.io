@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    font-family: verdana;
+    font-size: 20px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.animal {
+  font-weight: bold;
+  color: black;
+}
+
+.fact {
+  color: black;
+}
+
+
+footer {
+  color: dark grey;
+  background-color: white;
+  font-size: 10px
+}
