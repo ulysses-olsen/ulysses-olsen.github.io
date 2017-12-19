@@ -11,6 +11,11 @@ h1 {
     text-align: center;
 }
 
+p.attribution {
+    color: red;
+    text-transform: uppercase;
+}
+
 .animal {
   font-weight: bold;
   color: black;
