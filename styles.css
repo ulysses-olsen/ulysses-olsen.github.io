@@ -11,18 +11,26 @@ h1 {
     text-align: center;
 }
 
+p.attribution {
+    font-size: 50%;
+    text-transform: uppercase;
+}
+
 .animal {
-  font-weight: bold;
-  color: black;
+    font-weight: bold;
+    color: black;
 }
 
 .fact {
-  color: black;
+    color: black;
 }
 
+hr {
+    border-top: 1px solid #8c8b8b;
+}
 
 footer {
-  color: dark grey;
-  background-color: white;
-  font-size: 10px
+    color: dark grey;
+    background-color: white;
+    font-size: 10px
 }
