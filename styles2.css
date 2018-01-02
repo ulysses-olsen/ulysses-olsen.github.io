@@ -1,0 +1,41 @@
+ul.post-list {
+    margin-top: 1em;
+}
+
+ul.post-list li {
+    min-height: 150px;
+    margin-bottom: 3em;
+}
+
+ul.post-list li img {
+    float:left;
+    margin-right: 1em;
+}
+
+.post-teaser {
+    overflow: hidden;
+}
+
+/* .ul.post-list li  */
+
+.post-teaser h2 {
+    font-size: 120%;
+}
+
+.post-teaser h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-teaser h2 a:visited {
+    color: inherit;
+}
+
+.post-teaser h2 a:hover {
+    text-decoration: underline;
+}
+
+.read_more {
+    text-transform: uppercase;
+    font-size: 80%;
+}
