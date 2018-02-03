@@ -2,14 +2,14 @@ body {
     background-color: white;
     font-family: verdana;
     font-size: 20px;
-    margin-left: 4em;
-    margin-right: 4em;
+    /* margin-left: 4em;
+    margin-right: 4em; */
 }
 
 h1 {
     color: black;
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 p.attribution {
@@ -20,6 +20,16 @@ p.attribution {
 .animal {
     font-weight: bold;
     color: black;
+}
+
+ul.post-list li {
+    min-height: 150px;
+    margin-bottom: 3em;
+}
+
+.post-teaser h2 {
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .fact {
@@ -39,6 +49,11 @@ footer {
 h2 {
     color: black;
     text-align: center;
-    font size: 50px;
-    text-align: center;
+    font size: 100px;
+    font-weight: bold;
+}
+
+ul.content-wrapper {
+  margin: 0;
+  float:left;
 }

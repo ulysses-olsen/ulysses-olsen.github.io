@@ -16,8 +16,6 @@ ul.post-list li img {
     overflow: hidden;
 }
 
-/* .ul.post-list li  */
-
 .post-teaser h2 {
     font-size: 120%;
 }
@@ -35,7 +33,7 @@ ul.post-list li img {
     text-decoration: underline;
 }
 
-.read_more {
+.read-more {
     text-transform: uppercase;
     font-size: 80%;
 }

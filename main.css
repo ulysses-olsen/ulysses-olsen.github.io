@@ -10,9 +10,9 @@ body {
     font: 300 20px/1.5 verdana, sans-serif;
 }
 
-/* === Banner === */
+/* === Masthead === */
 .site-header {
-    background-color: #D9E3EF;
+    background-color: #FF0000;
     padding-bottom: 1em;
 }
 
@@ -27,6 +27,14 @@ body {
         else using percents;
     */
     font-size: 400%;
+}
+
+.site-header p {
+  text-align: right;
+}
+
+.site-header p a {
+  padding-right: 1em;
 }
 
 /*
@@ -84,12 +92,31 @@ body {
     max-width: 780px;
 }
 
+.welcome {
+  margin: 2em 0em;
+}
+
 /*
     === Footer ===
 */
 
 footer.site-footer {
-    margin-top: 2em;
-    height: 300px;
-    background-color: lightgray;
+    height: 200px;
+    background-color: #D9E3EF;
+    padding-top: 2em;
+    font-size: 80%;
+}
+
+.on-the-web {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+.on-the-web a {
+    color:inherit;
+}
+
+.post-list li img {
+  float:left;
+  margin-right: 1em;
 }
