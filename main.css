@@ -101,10 +101,10 @@ body {
 */
 
 footer.site-footer {
-    height: 200px;
     background-color: #D9E3EF;
-    padding-top: 2em;
+    padding: 2em;
     font-size: 80%;
+    margin-top: 3em;
 }
 
 .on-the-web {

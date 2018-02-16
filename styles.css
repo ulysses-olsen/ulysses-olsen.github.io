@@ -1,30 +1,28 @@
 body {
-    background-color: white;
-    font-family: verdana;
-    font-size: 20px;
-    /* margin-left: 4em;
-    margin-right: 4em; */
+  background-color: white;
+  font-family: verdana;
+  font-size: 20px;
 }
 
 h1 {
-    color: black;
-    text-align: center;
-    font-size: 80px;
+  color: black;
+  text-align: center;
+  font-size: 80px;
 }
 
 p.attribution {
-    font-size: 50%;
-    text-transform: uppercase;
+  font-size: 50%;
+  text-transform: uppercase;
 }
 
 .animal {
-    font-weight: bold;
-    color: black;
+  font-weight: bold;
+  color: black;
 }
 
 ul.post-list li {
-    min-height: 150px;
-    margin-bottom: 3em;
+  min-height: 150px;
+  margin-bottom: 3em;
 }
 
 .post-teaser h2 {
@@ -33,27 +31,38 @@ ul.post-list li {
 }
 
 .fact {
-    color: black;
+  color: black;
 }
 
 hr {
-    border-top: 1px solid #8c8b8b;
+  border-top: 1px solid #8c8b8b;
+}
+
+article {
+  margin-bottom: 3em;
 }
 
 footer {
-    color: dark grey;
-    background-color: white;
-    font-size: 10px;
+  color: dark grey;
+  background-color: white;
+  font-size: 10px;
 }
 
 h2 {
-    color: black;
-    text-align: center;
-    font size: 100px;
-    font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 ul.content-wrapper {
   margin: 0;
   float:left;
+}
+
+h3 {
+  font-size: 150;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2em;
 }
