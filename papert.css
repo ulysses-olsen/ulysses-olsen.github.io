@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+  margin: 2em;
+}
+
+#content {
+  /* padding-left: 1em; */
+  /* padding: 1em; */
+  /* float: left; */
+  width: 500px;
+}
+
+#code {
+  margin-top: 1em;
+  width: 496px;
+    max-width: 496px;
+    border: 3px solid #cccccc;
+    font-family: monospace;
+    font-size: 100%
+}
+
+#sketchpad {
+    /* float: left; */
+    border: 3px solid #cccccc;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+#canvas {
+  position: relative;
+  top: -40px;
+}
+
+#textOutput {
+	position: absolute;
+	font-size: 20px;
+	background-color: transparent;
+}
+
+#turtle {
+	margin: 10px 0 10px 0;
+  height: 20px;
+  width: 20px;
+	position: relative;
+	font-size: 20px;
+	background-color: transparent;
+  z-index: 10;
+}

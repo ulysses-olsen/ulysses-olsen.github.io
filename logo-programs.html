@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Logo!</title>
+  <link rel="icon" href="/favicon.ico" />
+  <link rel='stylesheet' href='https://meyerweb.com/eric/tools/css/reset/reset.css'>
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" type="text/css" href="papert.css" />
+  <link rel="icon" href="images/favicon.png">
+  <script type="text/javascript" src="turtle.js"></script>
+  <script type="text/javascript" src="parser.js"></script>
+  <script type="text/javascript" src="logo.js"></script>
+  <script type="text/javascript" src="init.js"></script>
+  <script id="dsq-count-scr" src="//ulyssesolsen.disqus.com/count.js" async></script>
+  <script>
+    function formClicked() {
+      var value = document.getElementById("speedControl").value;
+      var speed = 26 - value
+      console.log(speed);
+      run(speed, (speed > 5));
+    }
+  </script>
+</head>
+
+<body onload="init('canvas','turtle','input', 'textOutput'); clearcanvas(); run(1,false);">
+
+  <!-- Masthead -->
+  <div class='site-header'>
+    <h1><a href='/'>Ulysses</a></h1>
+    <p><a href='/'>Home</a> <a href='about.html'>About</a></p>
+  </div><!-- Masthead -->
+
+
+
+
+  <div class='content-wrapper'>
+
+    <article>
+
+  <div class='wrapper'>
+    <form id="input" action="/" method="post" onSubmit="this.img.value = canvas.toDataURL().replace('data:image/png;base64,','')">
+      <div id="sketchpad">
+          <div id="textOutput"></div>
+          <div id="turtle"><embed width="20" height="20" src="turtle.svg"/></div>
+          <canvas id="canvas" width="500" height="500"></canvas>
+      </div>
+
+      <div id="content">
+        <textarea name="code" id="code" rows="40" cols="20" spellcheck="false"></textarea>
+        <div style="margin: 5px;">
+          slow<input id='speedControl' style="width:50px;" type="range" name="points" min="1" max="26" step="6">fast
+          <input type='button' onclick="formClicked();" value='run'/>
+          <input type="button" onClick="stop();" value="stop" />
+          <input type="button" onClick="clearcanvas();" value="clear" />
+          <input type="button" onClick="document.location.href = canvas.toDataURL().replace('image/png', 'image/octet-stream')" value="save image" />
+        </div>
+      </div>
+    </form>
+  </div>
+</article>
+
+<!-- Disqus Comments -->
+<div id="disqus_thread"></div>
+  <script>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://ulyssesolsen.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div><!-- Disqus Comments -->
+
+</div><!-- content-wrapper -->
+
+<footer class='site-footer'>
+  <div class='content-wrapper'>
+      <p>This website was designed and coded by Ulysses Olsen. &copy; 2018.</p>
+      <ul class='on-the-web'>
+        <li><a href='https://www.flickr.com/photos/139094756@N02/'>Flickr</a></li>
+        <li><a href='https://github.com/ulysses-olsen'>Github</a></li>
+    </ul>
+</div>
+</footer>
+</body>
+</html>
