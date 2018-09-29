@@ -1,4 +1,4 @@
-/*
+hh/*
     The style rules you define for the `body` element
     will apply to everything on the page. You can override
     them down below. Make sure you define the body rules
@@ -119,4 +119,8 @@ footer.site-footer {
 .post-list li img {
   float:left;
   margin-right: 1em;
+}
+
+h4 {
+  font-size: 80%;
 }
